@@ -4,6 +4,9 @@
         <title>GoldJack</title>
         <link rel="stylesheet" href="./css/styles.css">
             <h1>Silverjack!</h1>
+            <style>
+                @import url("css/style.css");
+            </style>
     </head>
     
     <body>
