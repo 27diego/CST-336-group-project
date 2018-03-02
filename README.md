@@ -1,4 +1,4 @@
-# CST-336-group-project
+hghjg hj# CST-336-group-project
 Cards Project
 
 
@@ -7,3 +7,4 @@ The winner(s) is(are) displayed properly with the earned points //Diego
 Players' pictures and corresponding names are displayed RANDOMLY //Darren
 The average elapsed time is less than 1 second and shown on the page //Josh
 There is an external CSS file with at least 10 rules //NOAH
+Added elapsed time //Josh
