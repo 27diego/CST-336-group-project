@@ -1,4 +1,4 @@
-hghjg hj# CST-336-group-project
+CST-336-group-project
 Cards Project
 
 
