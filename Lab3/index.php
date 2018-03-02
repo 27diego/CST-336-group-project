@@ -7,6 +7,7 @@
             <style>
                 @import url("css/style.css");
             </style>
+            <hr id= "top"/>
     </head>
     
     <body>
