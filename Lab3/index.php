@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>GoldJack</title>
+        <title>SilverJack</title>
         <link rel="stylesheet" href="./css/styles.css">
             <h1>Silverjack!</h1>
             <style>
