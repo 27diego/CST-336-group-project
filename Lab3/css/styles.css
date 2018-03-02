@@ -1,5 +1,15 @@
+#top {
+    width:50%;
+}
+
+hr {
+    opacity: .50;
+    border: 1px solid #C90000;
+}
+
 body {
     background-color: #D4A190;
+    background-image: url("../img/city.jpg");
     color: white;
     text-align: center;
     text-shadow:
@@ -7,4 +17,6 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
+     padding-top: 10px;
+     
 }
