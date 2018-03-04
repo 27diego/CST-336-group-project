@@ -70,25 +70,8 @@
             echo"</div>";
         }
         
-       public function getScores($i){
-            $scores = 0;
-            
-            for ($playertoadd = 0; $playertoadd < count($this->players); $playertoadd++)
-            {
-                if ($i != $playertoadd)
-                {
-                    $scores += $this->players[$playertoadd]->s();
-                }
-            }
-            return $scores;
-        }
-        
-        public function getWin()
-        {
-            return $this->win;
-        }
-        
-         public function checkWin(){ 
+       public function checkWin(){  /* The programming in this function is kind of sloppy.  it took me a long time to fix this.  If i had more time i would have completely rewriten it */
+            $scores = array();
             foreach ($this->players as $player){
                 $ps = $player->getScore();
                 
@@ -107,11 +90,11 @@
                         }
                     }
                     
-                    print_r($scores);
+                    //print_r($scores);
                     
                     $winningvalue = max($scores);
                     
-                    echo $winningvalue;
+                   // echo $winningvalue;
                     
                     for ($playerid = 0; $playerid < count($scores); $playerid++)
                     {
@@ -130,6 +113,34 @@
             
         }
         
+        public function getScores($i){
+            $scores = 0;
+            $medArray = array();
+            
+            for ($playertoadd = 0; $playertoadd < count($this->players); $playertoadd++)
+            {
+                 if ($i != $playertoadd)
+                {
+                $medArray[$playertoadd]= $this->players[$playertoadd]->getScore();
+                    //$scores += $this->players[$playertoadd]->getScore();
+                    //echo $medArray[$playertoadd]."<br/>";
+                }
+            }
+            sort($medArray);
+            if(($medArray[1]-42)>(42-$medArray[3]))
+            {
+                $scores=$medArray[2]+$medArray[3];
+            }
+            else {
+                $scores=$medArray[1]+$medArray[2];
+            }
+            
+            return $scores;
+        }
+        
+        public function getWin(){
+            return $this->win;
+        }
     }
 
 
