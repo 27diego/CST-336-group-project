@@ -22,7 +22,7 @@
             array_push($this->decks, new Deck("clubs"));
             array_push($this->decks, new Deck("diamonds"));
             array_push($this->decks, new Deck("hearts"));
-            array_push($this->decks, new Deck("spade"));
+            array_push($this->decks, new Deck("spades"));
             
 
             $this->playerno = 0;
