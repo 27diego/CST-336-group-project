@@ -702,7 +702,35 @@
 [02-Mar-2018 04:25:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
 [02-Mar-2018 04:25:40 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
 [02-Mar-2018 04:25:40 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+<<<<<<< HEAD
+[02-Mar-2018 04:33:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:33:56 UTC] PHP Stack trace:
+[02-Mar-2018 04:33:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:33:56 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:33:56 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:33:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:33:56 UTC] PHP Stack trace:
+[02-Mar-2018 04:33:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:33:56 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:33:56 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:33:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:33:56 UTC] PHP Stack trace:
+[02-Mar-2018 04:33:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:33:56 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:33:56 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:33:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:33:56 UTC] PHP Stack trace:
+[02-Mar-2018 04:33:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:33:56 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:33:56 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:33:56 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 112
+[02-Mar-2018 04:33:56 UTC] PHP Stack trace:
+[02-Mar-2018 04:33:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:33:56 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:33:56 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+=======
 >>>>>>> af587bf3888e3e40924988ad319f855d4842d222
+<<<<<<< HEAD
 [02-Mar-2018 04:39:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
 [02-Mar-2018 04:39:22 UTC] PHP Stack trace:
 [02-Mar-2018 04:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
@@ -871,3 +899,6 @@
 [02-Mar-2018 04:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
 [02-Mar-2018 04:58:41 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
 [02-Mar-2018 04:58:41 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+=======
+>>>>>>> 7e79d2c58795c00a020e86c433967e7ba8b5841a
+>>>>>>> 8e385a453a5fb2e465dd7de89dc78f3497c2a800
