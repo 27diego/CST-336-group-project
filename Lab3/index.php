@@ -7,6 +7,7 @@
             <style>
                 @import url("css/style.css");
             </style>
+            <hr id= "top"/>
     </head>
     
     <body>
@@ -94,7 +95,7 @@
         <hr>
         CST 336 Internet Programming.
         <figure>
-            <img src="img/csumb_logo.jpg" alt="CSUMB" />
+            <img src="img/csumb_logo.png" alt="CSUMB" />
         </figure>
     </footer>
     
