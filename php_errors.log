@@ -980,3 +980,6 @@
 =======
 >>>>>>> 8e385a453a5fb2e465dd7de89dc78f3497c2a800
 >>>>>>> 01f316f4a62a4780945de4a963a6d5fa1f1304f1
+[11-Apr-2018 20:10:15 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/CST-336-group-project/project2/yugioh.php on line 4
+[11-Apr-2018 20:10:30 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/CST-336-group-project/project2/pokemon.php on line 4
+[11-Apr-2018 20:10:42 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/CST-336-group-project/project2/checkout.php on line 15
