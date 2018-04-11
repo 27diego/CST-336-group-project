@@ -1,7 +1,11 @@
 <?php
     session_start();
     include 'dbConnection.php'; //include '../dbConnection.php';
+<<<<<<< HEAD
     $conn = getDatabaseConnection("ygoCards");
+=======
+    $conn = getDatabaseConnection();
+>>>>>>> 417e6af87e2a4685a149ae8891d5cb59f82e73a4
     
     function getAllTypes(){
         global $conn;
@@ -105,7 +109,13 @@
         <h1>Items List</h1>
         <a href="checkout.php">Shopping Cart</a>
         <form>
+<<<<<<< HEAD
             <input type="text" name="storeSearch" placeholder="Search Product">
+=======
+<fieldset style='border-radius:35px;
+                             width:300px;
+                             margin: 0 auto;'>            <input type="text" name="storeSearch" placeholder="Search Product">
+>>>>>>> 417e6af87e2a4685a149ae8891d5cb59f82e73a4
             <select name="typeType">
                 <option disabled selected value value>Choose a type</option>
                 <?=getAllTypes()?>

@@ -9,16 +9,38 @@ body {
     color: #7D5259;
 }
 
+<<<<<<< HEAD
+=======
+.description {
+    text-align: center;
+}
+
+>>>>>>> 417e6af87e2a4685a149ae8891d5cb59f82e73a4
 a:hover { 
     background-color: yellow;
 }
 
+<<<<<<< HEAD
+=======
+a {
+    border: 2px solid;
+    border-color: #7D5259;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #A56975;
+    color: #D8D296 ;
+}
+
+>>>>>>> 417e6af87e2a4685a149ae8891d5cb59f82e73a4
 #ygo, #pkmn{
     display: block;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     width: 40%;
     height: 40%;
+=======
+>>>>>>> 417e6af87e2a4685a149ae8891d5cb59f82e73a4
 }
 
 aside, section {
@@ -35,4 +57,11 @@ aside {
     
 table {
     margin: 0px auto;
+<<<<<<< HEAD
+=======
+}
+
+.Yugioh, .pokemon {
+    text-align: center
+>>>>>>> 417e6af87e2a4685a149ae8891d5cb59f82e73a4
 }
