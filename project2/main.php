@@ -46,7 +46,8 @@
         
         
         <!-- This is the footer -->
-        <!-- The footer goes inside the body but not always -->
+        <!-- The footer goes inside the body but not always 
+        trying to change-->
 
     </body>
     <!-- closing body -->
