@@ -10,9 +10,9 @@ function displayItems(){
     }
    
 }
-if(isset($_GET['Checkout'])){
+if(isset($_GET['delete_shoppingcart'])){
         $_SESSION['shoppingCart'] = array();
-        header("Location: main.php");
+       // header("Location: main.php");
 }
 
 ?>
@@ -30,7 +30,7 @@ if(isset($_GET['Checkout'])){
             <h1>Checkout Items</h1>
             <?=displayItems()?>
         <form method='GET'>
-            <input type="submit" name = "Checkout" value ="Checkout">
+            <input type="submit" name = "delete_shoppingcart" value ="Empty Shopping Cart" >
         </form>
     </body>
 </html>
