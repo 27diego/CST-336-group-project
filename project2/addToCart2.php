@@ -12,7 +12,7 @@
         array_push($arr, $_GET['val']);
         $_SESSION['shoppingCart'] = $arr;
     }
-    header('Location: yugioh.php')
+    header('Location: pokemon.php')
 ?>
 
 <!DOCTYPE html>

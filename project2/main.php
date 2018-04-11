@@ -1,126 +1,45 @@
-<?php
-    session_start();
-    include 'dbConnection.php'; //include '../dbConnection.php';
-    $conn = getDatabaseConnection("ygoCards");
-    
-    function getAllTypes(){
-        global $conn;
-        $sql = "SELECT *
-                FROM types";
-        $statement = $conn->prepare($sql);
-        $statement->execute();
-        $classes = $statement->fetchAll(PDO::FETCH_ASSOC);
-        foreach($classes as $cl){
-            echo "<option value='" . $cl['typeName'] . "'>" . $cl['typeName'] . "</option>";
-        }
-    }
-    
-    function getRarity(){
-        global $conn;
-        $sql = "SELECT rarity
-                FROM types";
-        $statement = $conn->prepare($sql);
-        $statement->execute();
-        $classes = $statement->fetchAll(PDO::FETCH_ASSOC);
-        foreach($classes as $cl){
-            echo "<option value='" . $cl['rarity'] . "'>" . $cl['rarity'] . "</option>";
-        }
-    }
-    
-    function getItems() {
-    global $conn;
-    $namedParameters = array();
-    
-    
-    $sql = "SELECT * 
-            FROM cards 
-            WHERE 1"; 
-    
-    // if($_GET['typeName']=="" || $_GET['storeSearch']=="")
-    // {
-    //     echo "Please fill in fields!";
-    //     return;
-    // }
-    
-    if(isset($_GET['submit'])) {
-        if (isset($_GET['storeSearch'])) {
-            $sql .= " AND itemName LIKE :itemName";
-            $namedParameters[':itemName'] = "%" . $_GET['storeSearch'] . "%";
-        }
-        if (isset($_GET['typeType'])) {
-            $sql .= " AND typeName = :typeName ";
-            $namedParameters[':typeName'] = $_GET['typeType'];
-        }
-         if (isset($_GET['raritycard'])) {
-            $sql .= " AND cardRarity = :rarity ";
-            $namedParameters[':rarity'] = $_GET['raritycard'];
-        }
-
-        if ($_GET['sort'] == 'desc') {
-            $sql .= " ORDER BY itemName desc";
-        }
-        if ($_GET['sort'] == 'asc') {
-            $sql .= " ORDER BY itemName asc";
-        }
-    }
-            
-    
-    $statement = $conn->prepare($sql);
-    $statement->execute($namedParameters);
-    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
-    
-    foreach($records as $r) {
-        echo "<div class='Yugioh'>";
-        echo    "<details>";
-        echo        "<summary>" . $r['itemName'] . "</summary>";
-        echo        "<p> Category: " . $r['typeName'] . "</p>";
-        echo        "<form action='addToCart.php' method='GET'>";
-        echo            "<input type='hidden' name='val' value='".$r['itemName']."'>";
-        echo            "<input type='submit' value='Add to cart' style='position:relative; top:-10px'>";
-        echo        "</form>";
-        echo    "</details>";
-        echo "</div>";
-    }
-}
-
-?>
-
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Yugioh Card Search</title>
-        <!--<p>insert description</p>-->
-        
-        <style>
-            /*styling goes here*/
-        </style>
-        
-     </head>
-    <body>
-        <h1>Items List</h1>
-        <a href="checkout.php">Shopping Cart</a>
-        <form>
-            <input type="text" name="storeSearch" placeholder="Search Product">
-            <select name="typeType">
-                <option disabled selected value value>Choose a type</option>
-                <?=getAllTypes()?>
-            </select></br>
-            
-            <select name="raritycard">
-                <option disabled selected value value>Choose a rarity</option>
-                <?=getRarity()?>
-            </select></br>
-            
+<head>
+        <meta charset = "utf-8" />
+        <title> Trading Card Shopping System </title>
+       <style>
+          @import url("css/styles.css");
+       </style>
+       <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+       <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
 
-            Sort Products By:</br>
-            <select name="sort">
-                <option value="desc">Descending</option>
-                <option value="asc" selected>Ascending</option>
-            </select>
-            <input type="submit" name="submit" value="Search!">
-            </fieldset>        
-        </form>
-        <?=getItems()?>
+    <body>
+        <header>
+            <h1> CSUMB Trading Card Emporium</h1>
+        </header>
+            <nav>
+            <hr width = "50%"/>
+            <a href = "yugioh.php">Yu-gi-oh Cards            </a>
+            <a href = "pokemon.php">        Pokemon Cards</a>
+            </nav>
+            
+            <section>
+                <img id="ygo" src="img/1.png" alt="Yu-Gi-Oh!">
+                <img id="pkmn" src="img/2.png" alt="Pokemon">
+            
+            </section>
+            
+            
+            <br /> <br />
+            
+            <main>
+                
+                </div>
+            </main>
+        </header>
+        
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+
     </body>
+    <!-- closing body -->
+
 </html>
