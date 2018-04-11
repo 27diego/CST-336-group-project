@@ -730,7 +730,178 @@
 [02-Mar-2018 04:33:56 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
 =======
 >>>>>>> af587bf3888e3e40924988ad319f855d4842d222
+<<<<<<< HEAD
+[02-Mar-2018 04:39:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:39:22 UTC] PHP Stack trace:
+[02-Mar-2018 04:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:39:22 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:39:22 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:39:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:39:22 UTC] PHP Stack trace:
+[02-Mar-2018 04:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:39:22 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:39:22 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:39:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:39:22 UTC] PHP Stack trace:
+[02-Mar-2018 04:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:39:22 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:39:22 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:39:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:39:22 UTC] PHP Stack trace:
+[02-Mar-2018 04:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:39:22 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:39:22 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:39:22 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 112
+[02-Mar-2018 04:39:22 UTC] PHP Stack trace:
+[02-Mar-2018 04:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:39:22 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:39:22 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+[02-Mar-2018 04:46:33 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:46:33 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:33 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:33 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:46:33 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:46:33 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:33 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:33 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:46:33 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:46:33 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:33 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:33 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:46:33 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:46:33 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:33 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:33 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:46:33 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 112
+[02-Mar-2018 04:46:33 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:33 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:33 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+[02-Mar-2018 04:46:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:46:52 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:52 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:52 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:46:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:46:52 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:52 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:52 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:46:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:46:52 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:52 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:52 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:46:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:46:52 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:52 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:52 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:46:52 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 112
+[02-Mar-2018 04:46:52 UTC] PHP Stack trace:
+[02-Mar-2018 04:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:46:52 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:46:52 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+[02-Mar-2018 04:47:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:47:43 UTC] PHP Stack trace:
+[02-Mar-2018 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:47:43 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:47:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:47:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:47:43 UTC] PHP Stack trace:
+[02-Mar-2018 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:47:43 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:47:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:47:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:47:43 UTC] PHP Stack trace:
+[02-Mar-2018 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:47:43 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:47:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:47:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 102
+[02-Mar-2018 04:47:43 UTC] PHP Stack trace:
+[02-Mar-2018 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:47:43 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:47:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:102
+[02-Mar-2018 04:47:43 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 112
+[02-Mar-2018 04:47:43 UTC] PHP Stack trace:
+[02-Mar-2018 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:47:43 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:47:43 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+[02-Mar-2018 04:54:12 UTC] PHP Fatal error:  Call to a member function getPoints() on a non-object in /home/ubuntu/workspace/CST-336-group-project/Lab3/person.php on line 27
+[02-Mar-2018 04:54:12 UTC] PHP Stack trace:
+[02-Mar-2018 04:54:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:54:12 UTC] PHP   2. SilverjackHandler->dealCard() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:49
+[02-Mar-2018 04:54:12 UTC] PHP   3. Person->addCard() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:37
+[02-Mar-2018 04:54:12 UTC] PHP   4. Person->addPoints() /home/ubuntu/workspace/CST-336-group-project/Lab3/person.php:21
+[02-Mar-2018 04:54:39 UTC] PHP Fatal error:  Call to a member function getPoints() on a non-object in /home/ubuntu/workspace/CST-336-group-project/Lab3/person.php on line 27
+[02-Mar-2018 04:54:39 UTC] PHP Stack trace:
+[02-Mar-2018 04:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:54:39 UTC] PHP   2. SilverjackHandler->dealCard() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:49
+[02-Mar-2018 04:54:39 UTC] PHP   3. Person->addCard() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:37
+[02-Mar-2018 04:54:39 UTC] PHP   4. Person->addPoints() /home/ubuntu/workspace/CST-336-group-project/Lab3/person.php:21
+[02-Mar-2018 04:55:07 UTC] PHP Fatal error:  Call to a member function getPoints() on a non-object in /home/ubuntu/workspace/CST-336-group-project/Lab3/person.php on line 27
+[02-Mar-2018 04:55:07 UTC] PHP Stack trace:
+[02-Mar-2018 04:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:55:07 UTC] PHP   2. SilverjackHandler->dealCard() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:49
+[02-Mar-2018 04:55:07 UTC] PHP   3. Person->addCard() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:37
+[02-Mar-2018 04:55:07 UTC] PHP   4. Person->addPoints() /home/ubuntu/workspace/CST-336-group-project/Lab3/person.php:21
+[02-Mar-2018 04:55:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:55:40 UTC] PHP Stack trace:
+[02-Mar-2018 04:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:55:40 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:55:40 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:55:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:55:40 UTC] PHP Stack trace:
+[02-Mar-2018 04:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:55:40 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:55:40 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:55:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:55:40 UTC] PHP Stack trace:
+[02-Mar-2018 04:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:55:40 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:55:40 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:55:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:55:40 UTC] PHP Stack trace:
+[02-Mar-2018 04:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:55:40 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:55:40 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:55:40 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 112
+[02-Mar-2018 04:55:40 UTC] PHP Stack trace:
+[02-Mar-2018 04:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:55:40 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:55:40 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+[02-Mar-2018 04:58:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:58:41 UTC] PHP Stack trace:
+[02-Mar-2018 04:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:58:41 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:58:41 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:58:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:58:41 UTC] PHP Stack trace:
+[02-Mar-2018 04:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:58:41 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:58:41 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:58:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:58:41 UTC] PHP Stack trace:
+[02-Mar-2018 04:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:58:41 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:58:41 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:58:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
+[02-Mar-2018 04:58:41 UTC] PHP Stack trace:
+[02-Mar-2018 04:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:58:41 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:58:41 UTC] PHP   3. array_push() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:106
+[02-Mar-2018 04:58:41 UTC] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 112
+[02-Mar-2018 04:58:41 UTC] PHP Stack trace:
+[02-Mar-2018 04:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
+[02-Mar-2018 04:58:41 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
+[02-Mar-2018 04:58:41 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+=======
 >>>>>>> 7e79d2c58795c00a020e86c433967e7ba8b5841a
+<<<<<<< HEAD
 [02-Mar-2018 04:43:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php on line 106
 [02-Mar-2018 04:43:37 UTC] PHP Stack trace:
 [02-Mar-2018 04:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
@@ -806,3 +977,6 @@
 [02-Mar-2018 04:59:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:0
 [02-Mar-2018 04:59:51 UTC] PHP   2. SilverjackHandler->checkWin() /home/ubuntu/workspace/CST-336-group-project/Lab3/index.php:60
 [02-Mar-2018 04:59:51 UTC] PHP   3. max() /home/ubuntu/workspace/CST-336-group-project/Lab3/object.php:112
+=======
+>>>>>>> 8e385a453a5fb2e465dd7de89dc78f3497c2a800
+>>>>>>> 01f316f4a62a4780945de4a963a6d5fa1f1304f1
